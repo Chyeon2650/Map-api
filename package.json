@@ -1,0 +1,15 @@
+{
+  "name": "between-distance",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test tests/*.test.ts"
+  },
+  "engines": { "node": ">=22.0.0" },
+  "dependencies": { "next": "latest", "react": "latest", "react-dom": "latest", "lucide-react": "latest" },
+  "devDependencies": { "typescript": "^5", "@types/node": "^22", "@types/react": "^19", "@types/react-dom": "^19", "tsx": "^4", "@playwright/test": "latest" }
+}
